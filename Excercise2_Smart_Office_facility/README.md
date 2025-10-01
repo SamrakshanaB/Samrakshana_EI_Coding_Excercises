@@ -1,6 +1,6 @@
-**Smart Office Facility Manager**
+# **Smart Office Facility Manager**
 
-**Use Case**
+# **Use Case**
 
 Modern smart offices need efficient management of conference rooms, occupancy, and automation of resources.
 
@@ -9,7 +9,7 @@ This console-based application helps employees book conference rooms, manage occ
 It ensures no double-booking conflicts, supports booking cancellation, and provides a clear status summary of all rooms.
 
 
-**Given Functionalities**
+# **Given Functionalities**
 
 Configure Rooms – Set up number of rooms in the office.
 
@@ -25,7 +25,7 @@ Show Room Status – Display real-time status including capacity, occupants, and
 
 
 
-**Error Handling**
+# **Error Handling**
 
 Invalid capacity input → Shows proper message.
 
@@ -36,7 +36,7 @@ Overlapping booking attempt → Blocked with proper notification.
 Cancel booking with no reservations → Informs the user.
 
 
-**Additional Functionalities Added**
+# **Additional Functionalities Added**
 
 Multiple Non-Overlapping Bookings – Same room can hold multiple reservations at different times.
 
@@ -47,7 +47,7 @@ Time Conversion & Validation – Handles AM/PM properly while checking overlaps.
 Clear Console Messages – User-friendly feedback for every action.
 
 
-**Design Patterns Used**
+# **Design Patterns Used**
 
 Singleton Pattern – OfficeConfig ensures only one office configuration exists across the system.
 
@@ -56,6 +56,7 @@ Factory Pattern – (Optional for extension) Could be used for creating room obj
 Command Pattern – Encapsulates actions like BookRoomCommand, CancelRoomCommand, etc., for scalability.
 
 Observer Pattern – Occupancy changes automatically notify observers (AC, Lights).
+
 
 
 
