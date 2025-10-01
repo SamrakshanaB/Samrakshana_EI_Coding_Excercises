@@ -36,3 +36,4 @@ Factory Pattern – (Optional for extension) Could be used for creating room obj
 Command Pattern – Encapsulates actions like BookRoomCommand, CancelRoomCommand, etc., for scalability.
 Observer Pattern – Occupancy changes automatically notify observers (AC, Lights).
 
+
